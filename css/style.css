@@ -1,0 +1,12 @@
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+	padding: 50px;
+	display: flex; 
+   flex-direction: column; 
+}
+
+.wrapper > main{ 
+   flex-grow: 1; 
+} 
