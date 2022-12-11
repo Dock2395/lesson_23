@@ -1,20 +1,21 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-   <meta charset="UTF-8"> 
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-   <link rel="stylesheet" href="css/reset.css"> 
-   <link rel="stylesheet" href="css/fonts.css"> 
-   <link rel="stylesheet" href="css/style.css"> 
-   <title>Document</title> 
-</head> 
+<!DOCTYPE html>
+<html lang="en">
 
-<body> 
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+
+<body>
 	<div class="wrapper">
-		<header></header> 
+		<header></header>
 		<main>
-			<ul> Відповіді
+			<ul> Відповіді до відео №1
 				<li>
 					Варіант №1 - невірно. Повертає 35-22
 				</li>
@@ -31,7 +32,7 @@
 					після змінної.
 				</li>
 				<li>
-					Варіант №5 - невірно. 
+					Варіант №5 - невірно.
 					Повертає 11. Оскільки 11 є першим значення true, яке повертається після перевірки !false && 11
 				</li>
 				<li>
@@ -39,9 +40,55 @@
 					Оскіль він не null і не undefined.
 				</li>
 			</ul>
-		</main> 
-		<footer></footer> 
-	</div>    
+			<ul> Відповіді до відео №2
+				<li>
+					Варіант №1 - Брехня
+				</li>
+				<li>
+					Варіант №2 - Правда
+				</li>
+				<li>
+					Варіант №3 - Правда
+				</li>
+				<li>
+					Варіант №4 - Правда
+				</li>
+			</ul>
+			<ul> Відповіді до відео №3
+				<li>
+					Завдання №1
+					<p>for (let num = 1; num < 6; num++) {console.log(num);}</p>
+				</li>
+				<li>
+					Завдання №2 - невірно. Буде від'ємне безкінечне чисдо.
+				</li>
+				<li>
+					Завдання №3
+					<p>
+						let num = 0;
+						<br>
+						do {
+							console.log(`Число: ${num}`);
+							num++
+						} while (num < 3);
+					</p>
+				</li>
+				<li>
+					Завдання №4
+					<p>
+						for (let num = 0; num < 2; num++) {
+							for (let size = 0; size < 3; size++) {
+								console.log(size);
+								if (size == 1) break;
+							};
+						}
+					</p>
+				</li>
+			</ul>
+		</main>
+		<footer></footer>
+	</div>
 	<script src="js/js.js"></script>
-</body> 
-</html> 
+</body>
+
+</html>

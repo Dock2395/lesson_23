@@ -9,4 +9,12 @@
 
 .wrapper > main{ 
    flex-grow: 1; 
-} 
+}
+
+ul{
+	margin-bottom: 50px;
+}
+
+li{
+	margin-top: 15px;
+}
